@@ -1,13 +1,9 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
 
 * {
    margin: 0;
@@ -68,7 +64,7 @@ h3 {
 }
 
 .hero-image {
-   background-image: url(/images/landing.jpg);
+   background-image: url("../images/landing.jpg");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -144,7 +140,7 @@ hr {
 }
 
 .feature {
-   background: url(/images/spotify-icon-white.png);
+   background: url("../images/spotify-icon-white.png");
    background-repeat: no-repeat;
    background-position: center;
    background-color: #00B172;
